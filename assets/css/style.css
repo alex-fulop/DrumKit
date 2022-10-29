@@ -1,0 +1,78 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap");
+
+body {
+  background-color: #160031;
+  font-family: "Aleo", serif;
+  color: #eff7f6;
+}
+
+#title {
+  text-align: center;
+  font-size: 5rem;
+  margin: 4rem 0;
+  text-shadow: 4px 0px #d1495b;
+}
+
+.keypad-wrapper {
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.keypad {
+  outline: none;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  color: #d1495b;
+  line-height: 2;
+  border: 10px solid #22004c;
+  border-radius: 15px;
+  margin: 10px;
+  text-shadow: 3px 0 #dbedf3;
+  font-size: 5rem;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+#w {
+  background-image: url("/assets/imgs/tom1.png");
+}
+
+#a {
+  background-image: url("/assets/imgs/tom2.png");
+}
+
+#s {
+  background-image: url("/assets/imgs/tom3.png");
+}
+
+#d {
+  background-image: url("/assets/imgs/tom4.png");
+}
+
+#j {
+  background-image: url("/assets/imgs/snare.png");
+}
+
+#k {
+  background-image: url("/assets/imgs/crash.png");
+}
+
+#l {
+  background-image: url("/assets/imgs/kick.png");
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
